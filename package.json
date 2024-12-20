@@ -1,0 +1,51 @@
+{
+  "name": "@megaorm/utils",
+  "version": "1.0.0",
+  "description": "This package provides utility functions to validate whether a value is a MegaORM driver or a connection.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "Mohamed",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/megaorm/megaorm-utils.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "test": "npx jest --coverage",
+    "build": "tsc"
+  },
+  "keywords": [
+    "megaorm",
+    "utils",
+    "driver",
+    "connection",
+    "validation",
+    "mysql",
+    "sqlite",
+    "postgresql",
+    "megaConnection",
+    "megaPendingConnection",
+    "megaPoolConnection",
+    "isDriver",
+    "isMySQL",
+    "isPostgreSQL",
+    "isSQLite",
+    "isCon",
+    "isPendingCon",
+    "isPoolCon",
+    "type-checking",
+    "orm-utils",
+    "database",
+    "database-connection",
+    "orm-driver-validation"
+  ],
+  "dependencies": {
+    "@megaorm/test": "^1.2.0"
+  }
+}
